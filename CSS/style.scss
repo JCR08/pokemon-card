@@ -8,10 +8,10 @@ body{
     background: url('../images/bubbles.gif') no-repeat;
     background-size: cover;
     border: 15px solid $gold;
-    border-radius: 5%;
-    height: 300px * 1.4;
+    border-radius: 3%;
+    height: 320px * 1.4;
     margin: 8% auto auto auto;
-    width: 300px;
+    width: 320px;
 
     div.header{
       margin-bottom: 2px;
@@ -111,6 +111,12 @@ body{
           p{
             font-size: .75rem;
             margin: 0;
+
+            span.attackName{
+              font-family: 'Francois One', sans-serif;
+              font-size: 1rem;
+              font-weight: bold;
+            }
           }
         }
 

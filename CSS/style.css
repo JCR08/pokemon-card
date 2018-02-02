@@ -5,10 +5,10 @@ body {
     background: url("../images/bubbles.gif") no-repeat;
     background-size: cover;
     border: 15px solid #e7c300;
-    border-radius: 5%;
-    height: 420px;
+    border-radius: 3%;
+    height: 448px;
     margin: 8% auto auto auto;
-    width: 300px; }
+    width: 320px; }
     body div.cardBody div.header {
       margin-bottom: 2px; }
       body div.cardBody div.header p.basic {
@@ -72,6 +72,10 @@ body {
       body div.cardBody div.attacks div.specificAttack div.attackDescription p {
         font-size: .75rem;
         margin: 0; }
+        body div.cardBody div.attacks div.specificAttack div.attackDescription p span.attackName {
+          font-family: 'Francois One', sans-serif;
+          font-size: 1rem;
+          font-weight: bold; }
       body div.cardBody div.attacks div.specificAttack div.power {
         font-size: 1.5rem;
         text-align: center; }
